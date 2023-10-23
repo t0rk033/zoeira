@@ -66,6 +66,15 @@ button{
     right: 10px;
     cursor: pointer;
   }
+h1{
+    color: #fff;
+}
+  @media(max-width: 650px){
+    .clock{
+        width: 80%;
+    }
+  }
+  
 
   
   
