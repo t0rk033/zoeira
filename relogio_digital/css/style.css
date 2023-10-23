@@ -14,6 +14,7 @@ main{
     background-image: url(../img/img_manhã.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
 }
 .clock{
     background-color: #5353e97d;
@@ -41,6 +42,8 @@ button{
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    color: #fff;
+
 }
 
 /* pop-pup */
