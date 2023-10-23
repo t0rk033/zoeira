@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+main{
+    position: relative;
+    width: 100%;
+    height: 90vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/img_manhã.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clock{
+    background-color: #5353e97d;
+    color: #5d5dc3;
+    display: flex;
+    padding: 20px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 22px;
+}
+
+.hours, .minutes,.seconds{
+    padding: 30px;
+    background-color: #ffffffc1;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+button{
+    background-color: rgba(255, 0, 0, 0.675);
+    margin: 30px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* pop-pup */
+/* Estilos para ocultar o pop-up inicialmente */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 60px 80px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: center;
+    border-radius: 12px;
+  }
+  
+  /* Estilo para o botão de fechar o pop-up */
+  .fechar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  
+  
+  
