@@ -11,7 +11,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/img_manhã.jpg);
+    background-image: url(../img/img_manha.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -43,7 +43,6 @@ button{
     border: none;
     cursor: pointer;
     color: #fff;
-
 }
 
 /* pop-pup */
@@ -69,7 +68,13 @@ button{
     right: 10px;
     cursor: pointer;
   }
-
-  
+h1{
+    color: #fff;
+}
+  @media(max-width: 650px){
+    .clock{
+        width: 80%;
+    }
+  }
   
   
